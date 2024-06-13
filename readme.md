@@ -14,10 +14,12 @@ This was a very new learning experience for me as I never had worked with such t
 
 
 # Problems faced during this project
-Problem 1 - I wasn't able to visit the website using proxy (free versions)
+- Problem 1 - I wasn't able to visit the website using proxy (free versions)
+
 Solution - I found a code on the internet which tries to check all proxies one by one and gives a result which could help us. This worked for me only once and I had to wait for very long in order to get the one proxy IP which was opening the website. I also tried to open the website mannually by downloading various third party tools but none of them worked for me. I saw for some time I was able to make some calls to the website using my normal network so I utilized that opputunity to access the website
 
-Problem 2 - I wasn't allowed to type in the search bar
+- Problem 2 - I wasn't allowed to type in the search bar
+
 Solution - After I figured out how to use selenium in order to search and what exactly to type in so that I get the desired location, I noticed that I wasn't allowed to type in anything in the search bar now and my script was crashing. So I manually checked on what was the issue and found out that the input box was disabled so I thought of changing the HTML only but then I realized that I don't need the HTML as all the required data was being fetched from the same API endpoint, just with some change in the payload. I figured out this and started to scrape the API instead of the website.
 
 
